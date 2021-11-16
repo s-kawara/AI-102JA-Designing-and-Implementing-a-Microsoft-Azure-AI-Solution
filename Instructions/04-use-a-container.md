@@ -63,7 +63,7 @@ Cognitive Services API の多くは、*コンテナー*にパッケージ化し�
             | セキュアとしてマーク | キー | 値 |
             | -------------- | --- | ----- |
             | はい | ApiKey | *Cognitive Services リソースのいずれかのキー* |
-            | はい | 課金 | *Cognitive Services リソースのエンドポイント URI* |
+            | はい | Billing | *Cognitive Services リソースのエンドポイント URI* |
             | なし | Eula | 受け入れ |
 
         - **コマンドの上書き**: [ ]
