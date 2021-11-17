@@ -132,17 +132,17 @@ Web ブラウザーのタブが開き、Azure にサインインするように�
 8. **キー**が **metadata_storage_path** に設定されていることを確認し、**サジェスタ名** は空白 **検索モード** は、デフォルトのままにします。
 9. インデックス フィールドに次の変更を加え、他のすべてのフィールドはデフォルト設定のままにします (**重要**: テーブル全体を表示するには、右にスクロールする必要がある場合があります)
 
-    | フィールド名 | 取得可能 | フィルター可能 | 並べ替え可能 | ファセット可能 | 検索可能 |
+    | フィールド名 | 取得可能 | フィルター可能 | ソート可能 | ファセット可能 | 検索可能 |
     | ---------- | ----------- | ---------- | -------- | --------- | ---------- |
     | metadata_storage_size | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | |
     | metadata_storage_last_modified | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | |
     | metadata_storage_name | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
     | metadata_author | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
-    | 場所 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
-    | キーフレーズ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
-    | 言語 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | |
+    | locations | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
+    | keyphrases | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
+    | language | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004;  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | |
 
-11. 選択内容を再確認し、特に注意して、各フィールドで正しい**取得可能**、**フィルター可能**、**並べ替え可能**、**ファセット可能**、および**検索可能**オプションが選択されていることを確認します (後で変更するのは難しい場合があります)。次に、次の手順 (*インデクサーの作成*) に進みます。
+11. 選択内容を再確認し、特に注意して、各フィールドで正しい**取得可能**、**フィルター可能**、**ソート可能**、**ファセット可能**、および**検索可能**オプションが選択されていることを確認します (後で変更するのは難しい場合があります)。次に、次の手順 (*インデクサーの作成*) に進みます。
 12. **インデクサー名**を　**margies-indexer**.変更します。
 13. **スケジュール**は **1 回**に設定したままにします。
 14. **「詳細」** オプションを展開し、**「Base-64 エンコード キー」** オプションが選択されていることを確認します (通常、キーをエンコードするとインデックスがより効率的になります)。
